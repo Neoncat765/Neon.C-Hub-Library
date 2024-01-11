@@ -26,4 +26,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub
 DiscordLib:Notification("Notification", "Version V2 Loaded", "Okay!")
 end)
 
-serv:Channel("by Neoncat#0205")
+btns:Button("Made by neoncat#0205", function()
+print("MadeByMe")
+DiscordLib:Notification("Notification", "Version V2 Loaded", "Okay!")
+end)
