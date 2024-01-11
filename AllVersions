@@ -28,5 +28,10 @@ end)
 
 btns:Button("Made by neoncat#0205", function()
 print("MadeByMe")
-DiscordLib:Notification("Notification", "Version V2 Loaded", "Okay!")
+DiscordLib:Notification("Notification", "All the versions are made by me", "Okay!")
+end)
+
+btns:Button("Main discord server https://discord.gg/NCmpDSTWAz", function()
+print("MadeByMe")
+DiscordLib:Notification("Notification", "Join the discord for more scripts! ", "Okay!")
 end)
