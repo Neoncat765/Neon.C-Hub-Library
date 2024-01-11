@@ -1,0 +1,29 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Neon.C Hub Library")
+
+local serv = win:Server("🎯 Main", "")
+
+local btns = serv:Channel("📜 Versions")
+
+btns:Button("Neon.C Hub V4.1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V4.1/main/MainUpdateV4.1"))();
+DiscordLib:Notification("Notification", "Version V4.1 Loaded", "Okay!")
+end)
+
+btns:Button("Neon.C Hub V2024", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V2024/main/MainNewYear2024"))();
+DiscordLib:Notification("Notification", "Version V2024 Loaded", "Okay!")
+end)
+
+btns:Button("Neon.C Hub V3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V3-Main/main/Christmas%20UPDATE"))();
+DiscordLib:Notification("Notification", "Version V3 Loaded", "Okay!")
+end)
+
+btns:Button("Neon.C Hub V2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V2/main/UPDATE"))();
+DiscordLib:Notification("Notification", "Version V2 Loaded", "Okay!")
+end)
+
+serv:Channel("by Neoncat#0205")
