@@ -8,7 +8,7 @@ local btns = serv:Channel("📜 Versions")
 
 btns:Button("Neon.C Hub X", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-X/main/UnknownVersion"))();
-DiscordLib:Notification("Notification", "Version V4.1 Loaded successfully! This version has no key.", "Okay!")
+DiscordLib:Notification("Notification", "Version X Loaded successfully! This version has no key.", "Okay!")
 end)
 
 btns:Button("Neon.C Hub V4.1", function()
