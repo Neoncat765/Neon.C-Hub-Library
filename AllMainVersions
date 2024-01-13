@@ -6,6 +6,11 @@ local serv = win:Server("🎯 Main", "")
 
 local btns = serv:Channel("📜 Versions")
 
+btns:Button("Neon.C Hub X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-X/main/UnknownVersion"))();
+DiscordLib:Notification("Notification", "Version V4.1 Loaded successfully! This version has no key.", "Okay!")
+end)
+
 btns:Button("Neon.C Hub V4.1", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V4.1/main/MainUpdateV4.1"))();
 DiscordLib:Notification("Notification", "Version V4.1 Loaded successfully!", "Okay!")
@@ -36,9 +41,12 @@ print("MadeByMe")
 DiscordLib:Notification("Notification", "Join the discord for more scripts! ", "Okay!")
 end)
 
-local serv = win:Server("🔑 Key", "")
+local btns = serv:Channel("🔑 Key")
 
-local btns = serv:Channel("LocalKeys")
+btns:Button("Note: Neon.C Hub X has no key!", function()
+print("hello")
+DiscordLib:Notification("Notification", "This version has no key!", "Okay!")
+end)
 
 btns:Button("V4.1 key is Blade82", function()
 print("MadeByMe")
