@@ -6,29 +6,34 @@ local serv = win:Server("🎯 Main", "")
 
 local btns = serv:Channel("📜 Versions")
 
+btns:Button("Neon.C Hub V5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V5/main/UpdatedVersion"))();
+DiscordLib:Notification("Notification", "Neon.C Hub V5 Loaded successfully! This version has no key.", "Okay!")
+end)
+
 btns:Button("Neon.C Hub X", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-X/main/UnknownVersion"))();
-DiscordLib:Notification("Notification", "Version X Loaded successfully! This version has no key.", "Okay!")
+DiscordLib:Notification("Notification", "Neon.C Hub V4.1 Loaded successfully! This version has no key.", "Okay!")
 end)
 
 btns:Button("Neon.C Hub V4.1", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V4.1/main/MainUpdateV4.1"))();
-DiscordLib:Notification("Notification", "Version V4.1 Loaded successfully!", "Okay!")
+DiscordLib:Notification("Notification", "Neon.C Hub V4 Loaded successfully!", "Okay!")
 end)
 
 btns:Button("Neon.C Hub V2024", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V2024/main/MainNewYear2024"))();
-DiscordLib:Notification("Notification", "Version V2024 Loaded successfully!", "Okay!")
+DiscordLib:Notification("Notification", "Neon.C Hub V2024 Loaded successfully!", "Okay!")
 end)
 
 btns:Button("Neon.C Hub V3", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V3-Main/main/Christmas%20UPDATE"))();
-DiscordLib:Notification("Notification", "Version V3 Loaded successfully!", "Okay!")
+DiscordLib:Notification("Notification", "Neon.C Hub V3 Loaded successfully!", "Okay!")
 end)
 
 btns:Button("Neon.C Hub V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V2/main/UPDATE"))();
-DiscordLib:Notification("Notification", "Version V2 Loaded successfully! ", "Okay!")
+DiscordLib:Notification("Notification", "Neon.C Hub V2 Loaded successfully! ", "Okay!")
 end)
 
 btns:Button("Made by neoncat#0205", function()
@@ -42,6 +47,11 @@ DiscordLib:Notification("Notification", "Join the discord for more scripts! ", "
 end)
 
 local btns = serv:Channel("🔑 Key")
+
+btns:Button("Note: Neon.C Hub V5 has no key!", function()
+print("hello")
+DiscordLib:Notification("Notification", "This version has no key!", "Okay!")
+end)
 
 btns:Button("Note: Neon.C Hub X has no key!", function()
 print("hello")
