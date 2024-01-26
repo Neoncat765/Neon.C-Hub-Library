@@ -7,7 +7,7 @@ local serv = win:Server("🎯 Main", "")
 local btns = serv:Channel("📜 Versions")
 
 btns:Button("Neon.C Hub [💎]", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub/main/PremiumOnly"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub/main/Project.lua"))();
 DiscordLib:Notification("Notification", "Neon.C Hub [💎] Loaded successfully! This version has no key.", "Okay!")
 end)
 
